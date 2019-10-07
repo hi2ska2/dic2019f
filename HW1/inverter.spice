@@ -1,0 +1,8 @@
+* SPICE3 file created from inverter.ext - technology: scmos
+
+.option scale=1u
+
+C0 w_n8_36# VDD 3.4fF
+C1 Vin VSS 3.3fF
+C2 Vin w_n8_36# 7.3fF
+C3 Vin gnd! 32.0fF **FLOATING
