@@ -1,0 +1,16 @@
+timestamp 1569766411
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "Vout" 87 1504 6 16 ndc 16 16 64 32 0 0 0 0 0 0 0 0 176 88 0 0 0 0
+node "Vin" 381 32026 -22 12 p 0 0 0 0 648 216 0 0 0 0 0 0 80 48 0 0 0 0
+node "VDD" 86 1880 6 60 pdc 64 32 64 32 0 0 0 0 0 0 0 0 240 76 0 0 0 0
+node "VSS" 86 0 -1 0 pw 16 16 16 16 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "w_n8_36#" 2777 0 -8 36 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1517 156
+cap "w_n8_36#" "Vin" 7272
+cap "Vout" "w_n8_36#" 1504
+cap "VSS" "Vin" 3254
+cap "VDD" "w_n8_36#" 3384
+cap "Vout" "VSS" 1504
